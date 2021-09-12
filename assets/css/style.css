@@ -88,6 +88,10 @@ header {
   cursor: pointer;
 }
 
+.btn-1 {
+  width: 275px;
+}
+
 button[disabled] {
   cursor: default;
   background: #c0c7cf;
