@@ -59,12 +59,21 @@ function writePassword() {
         passwordBox += speChar;
     }
 
-    // set 
+    // To determine the length of password 
     for (var i = 0; i < passwordLength; i++) {
-        // Continues to select a random character value from the string until it is the desired length
         fullPassword += passwordBox.charAt(Math.floor(Math.random() * passwordBox.length));
     }
     password.value = fullPassword;
 
 }
 
+
+// Source: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Interact_with_the_clipboard
+
+function copy() {
+  var copyText = document.querySelector("#clip");
+  copyText.select();
+  document.execCommand("copy");
+}
+
+document.querySelector("#copy").addEventListener("click", copy);
