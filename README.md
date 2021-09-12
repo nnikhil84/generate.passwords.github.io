@@ -20,6 +20,8 @@ https://nnikhil84.github.io/generate.passwords.github.io/
 * Created README.md
 * Created develop and feature/add-copy-button branches 
 * While in feature/add-copy-button branch, updated index.html and style.css to include another button to copy password that will be generated
+* prepared pseudo code wireframe as per below image to write javascript code in feature/pseudo-code branch
+![Pseudo code wireframe](./assets/images/pseudo-code.jpg)
 
 
 ## Resources Used
